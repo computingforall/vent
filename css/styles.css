@@ -9,3 +9,45 @@
 
 
 /* LAYOUT */
+
+
+
+
+nav {
+    background-color: aqua;
+    padding: 1em;
+}
+.logo h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+#page {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.slogan {
+    background-color: blueviolet;
+    padding: 1em;
+}
+.slogan h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+main {
+    padding: 2em;
+    background-color: gray;
+}
+main > div {
+    background-color: lightgrey;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+.popularvent > div {
+    padding: 1em;
+    background-color: gray;
+    margin-bottom: 2em;
+}
+
