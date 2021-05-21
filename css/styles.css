@@ -50,4 +50,9 @@ main > div {
     background-color: gray;
     margin-bottom: 2em;
 }
+aside > div {
+    background-color: gray;
+    padding: 4em;
+    margin: 1em;
+}
 
