@@ -58,3 +58,12 @@ aside > div ul {
 
 }
 
+footer {
+background-color: black;
+padding: 1em;
+}
+
+footer h4{
+color: white;
+text-align: center;
+}
