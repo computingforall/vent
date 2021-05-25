@@ -50,9 +50,11 @@ main > div {
     background-color: gray;
     margin-bottom: 2em;
 }
-aside > div {
-    background-color: gray;
-    padding: 4em;
-    margin: 1em;
+aside > div ul {
+    list-style: none;
+    background-color: lightpink;
+    padding: 1em;
+    margin-bottom: 1em;
+
 }
 
