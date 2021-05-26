@@ -1,5 +1,5 @@
-@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
-
+    @import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+    @import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap');
 /* RESETS */
 * {margin:0;padding:0;line-height:1;}
 
@@ -12,14 +12,19 @@
 
 
 
-
+body {
+    background-color: #0b132b;
+    font-family: "Sintony", sans-serif;
+}
 nav {
-    background-color: aqua;
-    padding: 1em;
+    background-color: #1c2541;
+    padding: 2em;
 }
 .logo h1 {
     text-align: center;
     text-transform: uppercase;
+    color: white;
+    font-size: 2.5em;
 }
 #page {
     width: 100%;
@@ -29,8 +34,12 @@ nav {
     grid-template-columns: 1fr 3fr;
 }
 .slogan {
-    background-color: blueviolet;
-    padding: 1em;
+    background-color: #3a506b;
+    padding: 1em 0;
+    color: white;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
 }
 .slogan h1 {
     text-align: center;
@@ -38,21 +47,32 @@ nav {
 }
 main {
     padding: 2em;
-    background-color: gray;
+    background-color: #1c2541;
 }
 main > div {
-    background-color: lightgrey;
+    background-color: #3a506b;
     padding: 1em;
     margin-bottom: 2em;
+    color: white;
 }
 .popularvent > div {
     padding: 1em;
-    background-color: gray;
+    background-color: white;
     margin-bottom: 2em;
+    color: black;
+    
+}
+aside > div {
+    background-color: #3a506b;
+    margin-top: 1em;
+    color: white;
+    padding: 2em;
+}
+aside > div ul li a {
+    color: white;
 }
 aside > div ul {
     list-style: none;
-    background-color: lightpink;
     padding: 1em;
     margin-bottom: 1em;
 
@@ -67,3 +87,4 @@ footer h4{
 color: white;
 text-align: center;
 }
+
