@@ -51,6 +51,18 @@ main {
     padding: 2em;
     background-color: #1c2541;
 }
+main div h6 a {
+    font-size: 1.5em;
+    color: white;
+    margin-right: 1em;
+    
+}
+main div h6 a:hover {
+    color: #5bc0be;
+}
+main > div h2 {
+    margin-bottom: 1em;
+}
 main > div {
     background-color: #3a506b;
     padding: 2em;
@@ -61,11 +73,12 @@ main > div + div {
     margin-top: 2em;
 }
 
-.popularvent > div {
+.popularvent > div, .newsfromhashtag > div {
     padding: 2em;
     background-color: white;
     color: black;
     box-shadow: 3px 3px 3px #00000066;
+    margin-top: 1em;
 }
 
 .popularvent > div + div {
@@ -81,6 +94,9 @@ aside > div {
 }
 aside > div ul li a {
     color: white;
+}
+aside > div ul li a:hover {
+    color: #5bc0be;
 }
 aside > div ul {
     list-style: none;
