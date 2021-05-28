@@ -1,5 +1,6 @@
     @import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
     @import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
 /* RESETS */
 * {margin:0;padding:0;line-height:1;}
 
@@ -13,11 +14,31 @@ p {
     line-height: 1.5em;
 }
 
+a {
+    transition:color 0.5s;
+}
+
+button {
+    background-color:#5bc0be;
+    color:white;
+    border:2px solid white;
+    margin-top:1em;
+    font-weight:700;
+    padding:1em 2em;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #00000066;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #1c2541;
+}
+
 
 
 /* LAYOUT */
 
-
+/* NAV BAR */
 nav {
     background-color: #1c2541;
     padding: 2em;
@@ -26,8 +47,10 @@ nav {
     text-align: center;
     text-transform: uppercase;
     color: white;
-    font-size: 2.5em;
+    font-size: 3em;
 }
+
+/* PAGE */
 #page {
     width: 100%;
     max-width: 1200px;
@@ -47,6 +70,8 @@ nav {
     text-align: center;
     text-transform: uppercase;
 }
+
+/* MAIN SECTION */
 main {
     padding: 2em;
     background-color: #1c2541;
@@ -73,6 +98,14 @@ main > div + div {
     margin-top: 2em;
 }
 
+.newsfromhashtag a {
+    color:white;
+}
+
+.newsfromhashtag a:hover {
+    color:#5bc0be;
+}
+
 .popularvent > div, .newsfromhashtag > div {
     padding: 2em;
     background-color: white;
@@ -85,6 +118,8 @@ main > div + div {
     margin-top: 2em;
 }
 
+
+/* SIDE BAR */
 
 aside > div {
     background-color: #3a506b;
@@ -103,12 +138,15 @@ aside > div ul {
     padding: 1em;
 }
 aside > div ul li {
-    margin-bottom:0.5em;
+    margin-bottom:1em;
 }
 
 aside > div h3 ~ h3 {
     margin-top:1em;
 }
+
+
+/* FOOTER */
 
 footer {
     background-color: black;
@@ -119,5 +157,65 @@ footer h4{
     color: white;
     text-align: center;
     text-transform: uppercase;
+}
+
+
+/* NEW VENT */
+.newvent textarea {
+    width:100%;
+    resize:none;
+    font-size:1em;
+    font-family: "Sintony", sans-serif;
+    padding:1em;
+    box-sizing: border-box;
+    border:4px inset #5bc0be;
+}
+
+
+
+
+/* LIKES */
+.like {
+    margin-top:1em;
+    text-align:right;
+    font-size:1.5em;
+}
+
+.liked i {
+    color:#5bc0be;
+}
+
+
+/* SHOW MORE*/
+#showmore {
+    text-align:center;
+}
+
+.hide {
+    display:none;
+}
+
+#showmore a {
+    color:#3a506b;
+    font-weight:700;
+    font-size:1.5em;
+    text-decoration:none;
+}
+
+#showmore a:hover {
+    color:#5bc0be;
+}
+
+#showmore .show-arrow {
+    display:inline-block;
+    transform:rotateZ(90deg);
+}
+
+#showmore .show-arrow.less {
+    transform:rotateZ(-90deg);
+}
+
+#showmore .show-arrow.more {
+    transform:rotateZ(90deg);
 }
 
